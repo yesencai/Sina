@@ -14,11 +14,11 @@
 /**
  *  微博AppKey
  */
-#define JYAppKey @"3491602249"
+#define JYAppKey @"2308541535"
 /**
  *  微博AppSecret
  */
-#define JYAppSecret @"3c824a991f3d52112093d0c411a27f29"
+#define JYAppSecret @"cc6d7dcd41dbeaec0d5cbb1e6658187e"
 /**
  *  回调页面
  */
@@ -26,7 +26,7 @@
 /**
  *  请求用户授权
  */
-#define JYGetUserAuthorize @"https://api.weibo.com/oauth2/authorize?client_id=3491602249&redirect_uri=http://api.weibo.com/oauth2/default.html"
+#define JYGetUserAuthorize @"https://api.weibo.com/oauth2/authorize?client_id=2308541535&redirect_uri=http://api.weibo.com/oauth2/default.html"
 /**
  *  获取授权
  */
