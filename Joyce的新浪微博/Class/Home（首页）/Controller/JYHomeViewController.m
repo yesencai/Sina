@@ -232,6 +232,7 @@
         [self showNewStatusCount:array.count];
         //刷新表格
         [self.tableView reloadData];
+        [MBProgressHUD hideHUD];
 
     } failure:^(NSError *error) {
         //结束刷新
@@ -330,6 +331,7 @@
  */
 -(void)pop{
     MLMusicViewController *vc = [[MLMusicViewController alloc]init];
+    vc.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
     [self presentViewController:vc animated:YES completion:nil];
     
 }
