@@ -43,7 +43,7 @@
 -(void)layoutSubviews{
     [super layoutSubviews];
     NSInteger count  = self.subviews.count;
-    CGFloat btnH =self.height;
+    CGFloat btnH  =self.height;
     CGFloat btnW = self.width/count;
     for (int i=0; i<count; i++) {
         UIButton *btn = self.subviews[i];

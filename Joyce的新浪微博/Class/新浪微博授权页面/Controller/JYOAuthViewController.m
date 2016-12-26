@@ -74,7 +74,6 @@
     params[@"grant_type"] = @"authorization_code";
     params[@"code"] = code;
     params[@"redirect_uri"] = JYRedirectUrl;
-    [MBProgressHUD hideHUD];
 
     [JYHttpTool postPath:JYgetOAuthUrl parameters:params success:^(id responseObject) {
         [MBProgressHUD hideHUD];
@@ -87,6 +86,7 @@
     } failure:^(NSError *error) {
         [MBProgressHUD hideHUD];
         [MBProgressHUD showSuccess:@"登录失败"];
+
     }];
 }
 
